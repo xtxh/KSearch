@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BC109EC84946BC6B5BD0DF /* libPods-KSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B027763127A30ACF65546BE /* libPods-KSearch.a */; };
+		6E63373F1FA71F72005FDF2C /* KNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63373E1FA71F3A005FDF2C /* KNoDataView.m */; };
+		6E6337401FA71F88005FDF2C /* KSearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63373A1FA71EE9005FDF2C /* KSearchItem.m */; };
+		6E6337411FA71FCB005FDF2C /* NSMutableAttributedString+KP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6337311FA71E28005FDF2C /* NSMutableAttributedString+KP.m */; };
+		6E6337421FA71FCB005FDF2C /* NSString+KP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6337381FA71E28005FDF2C /* NSString+KP.m */; };
+		6E6337431FA71FCB005FDF2C /* UISearchBar+KP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6337371FA71E28005FDF2C /* UISearchBar+KP.m */; };
+		6E7D44471FA8600F0081D186 /* KSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D44461FA8600F0081D186 /* KSearchBar.m */; };
+		6E8811971FA019120078BEF2 /* KsearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8811951FA019110078BEF2 /* KsearchViewController.m */; };
+		6E93AB1A1F9EC4F8007AA916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93AB191F9EC4F8007AA916 /* AppDelegate.m */; };
+		6E93AB221F9EC4F8007AA916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E93AB211F9EC4F8007AA916 /* Assets.xcassets */; };
+		6E93AB281F9EC4F8007AA916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93AB271F9EC4F8007AA916 /* main.m */; };
+		6E93AB331F9ECF67007AA916 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93AB321F9ECF67007AA916 /* LaunchViewController.m */; };
+		6E93AB391F9EDB94007AA916 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E93AB381F9EDB94007AA916 /* Launch Screen.storyboard */; };
+		6E93AB441F9EEB25007AA916 /* KSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93AB411F9EEB25007AA916 /* KSearchResultViewController.m */; };
+		6EF048871FA6C1C100309192 /* KContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF048861FA6C1C100309192 /* KContactsViewController.m */; };
+		6EF0488A1FA6C1D000309192 /* KMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF048891FA6C1D000309192 /* KMessageViewController.m */; };
+		6EF0488D1FA6C1EB00309192 /* KDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0488C1FA6C1EB00309192 /* KDiscoverViewController.m */; };
+		6EF048901FA6C1FD00309192 /* KMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0488F1FA6C1FD00309192 /* KMineViewController.m */; };
+		6EF048931FA6C23300309192 /* KTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF048921FA6C23300309192 /* KTableViewCell.m */; };
+		6EF048961FA6C24400309192 /* KTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF048951FA6C24400309192 /* KTableView.m */; };
+		6EF048991FA6C25300309192 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF048981FA6C25300309192 /* KViewController.m */; };
+		6EF0489C1FA6C26E00309192 /* KTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0489B1FA6C26E00309192 /* KTableViewController.m */; };
+		6EF0489F1FA6C59300309192 /* KTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0489E1FA6C59300309192 /* KTabBarController.m */; };
+		6EF048A81FA704F300309192 /* KNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF048A71FA704F300309192 /* KNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B027763127A30ACF65546BE /* libPods-KSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18894046C367B625854B69A6 /* Pods-KSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSearch/Pods-KSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6337311FA71E28005FDF2C /* NSMutableAttributedString+KP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+KP.m"; sourceTree = "<group>"; };
+		6E6337321FA71E28005FDF2C /* NSMutableAttributedString+KP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+KP.h"; sourceTree = "<group>"; };
+		6E6337331FA71E28005FDF2C /* NSString+KP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KP.h"; sourceTree = "<group>"; };
+		6E6337341FA71E28005FDF2C /* UISearchBar+KP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+KP.h"; sourceTree = "<group>"; };
+		6E6337371FA71E28005FDF2C /* UISearchBar+KP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+KP.m"; sourceTree = "<group>"; };
+		6E6337381FA71E28005FDF2C /* NSString+KP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KP.m"; sourceTree = "<group>"; };
+		6E6337391FA71EE8005FDF2C /* KSearchItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSearchItem.h; sourceTree = "<group>"; };
+		6E63373A1FA71EE9005FDF2C /* KSearchItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSearchItem.m; sourceTree = "<group>"; };
+		6E63373D1FA71F3A005FDF2C /* KNoDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNoDataView.h; sourceTree = "<group>"; };
+		6E63373E1FA71F3A005FDF2C /* KNoDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNoDataView.m; sourceTree = "<group>"; };
+		6E7D44451FA8600F0081D186 /* KSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSearchBar.h; sourceTree = "<group>"; };
+		6E7D44461FA8600F0081D186 /* KSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSearchBar.m; sourceTree = "<group>"; };
+		6E8811951FA019110078BEF2 /* KsearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KsearchViewController.m; sourceTree = "<group>"; };
+		6E8811961FA019110078BEF2 /* KsearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KsearchViewController.h; sourceTree = "<group>"; };
+		6E93AB151F9EC4F8007AA916 /* KSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E93AB181F9EC4F8007AA916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E93AB191F9EC4F8007AA916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E93AB211F9EC4F8007AA916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E93AB261F9EC4F8007AA916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E93AB271F9EC4F8007AA916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E93AB311F9ECF67007AA916 /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		6E93AB321F9ECF67007AA916 /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		6E93AB381F9EDB94007AA916 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6E93AB401F9EEB25007AA916 /* KSearchResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSearchResultViewController.h; sourceTree = "<group>"; };
+		6E93AB411F9EEB25007AA916 /* KSearchResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSearchResultViewController.m; sourceTree = "<group>"; };
+		6E93AB551F9F30AB007AA916 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6EF048851FA6C1C100309192 /* KContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KContactsViewController.h; sourceTree = "<group>"; };
+		6EF048861FA6C1C100309192 /* KContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KContactsViewController.m; sourceTree = "<group>"; };
+		6EF048881FA6C1D000309192 /* KMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMessageViewController.h; sourceTree = "<group>"; };
+		6EF048891FA6C1D000309192 /* KMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMessageViewController.m; sourceTree = "<group>"; };
+		6EF0488B1FA6C1EB00309192 /* KDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDiscoverViewController.h; sourceTree = "<group>"; };
+		6EF0488C1FA6C1EB00309192 /* KDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDiscoverViewController.m; sourceTree = "<group>"; };
+		6EF0488E1FA6C1FD00309192 /* KMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMineViewController.h; sourceTree = "<group>"; };
+		6EF0488F1FA6C1FD00309192 /* KMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMineViewController.m; sourceTree = "<group>"; };
+		6EF048911FA6C23300309192 /* KTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTableViewCell.h; sourceTree = "<group>"; };
+		6EF048921FA6C23300309192 /* KTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTableViewCell.m; sourceTree = "<group>"; };
+		6EF048941FA6C24400309192 /* KTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTableView.h; sourceTree = "<group>"; };
+		6EF048951FA6C24400309192 /* KTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTableView.m; sourceTree = "<group>"; };
+		6EF048971FA6C25300309192 /* KViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
+		6EF048981FA6C25300309192 /* KViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
+		6EF0489A1FA6C26E00309192 /* KTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTableViewController.h; sourceTree = "<group>"; };
+		6EF0489B1FA6C26E00309192 /* KTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTableViewController.m; sourceTree = "<group>"; };
+		6EF0489D1FA6C59300309192 /* KTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTabBarController.h; sourceTree = "<group>"; };
+		6EF0489E1FA6C59300309192 /* KTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTabBarController.m; sourceTree = "<group>"; };
+		6EF048A61FA704F300309192 /* KNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNavigationController.h; sourceTree = "<group>"; };
+		6EF048A71FA704F300309192 /* KNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNavigationController.m; sourceTree = "<group>"; };
+		E7A2E8CFD834CBD1426576C4 /* Pods-KSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSearch/Pods-KSearch.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E93AB121F9EC4F8007AA916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC109EC84946BC6B5BD0DF /* libPods-KSearch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F22C2798E12E7CBF2FF8287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18894046C367B625854B69A6 /* Pods-KSearch.debug.xcconfig */,
+				E7A2E8CFD834CBD1426576C4 /* Pods-KSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E93AB0C1F9EC4F8007AA916 = {
+			isa = PBXGroup;
+			children = (
+				6E93AB171F9EC4F8007AA916 /* KSearch */,
+				6E93AB161F9EC4F8007AA916 /* Products */,
+				0F22C2798E12E7CBF2FF8287 /* Pods */,
+				712F11B293AE979B15F78A3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E93AB161F9EC4F8007AA916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E93AB151F9EC4F8007AA916 /* KSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E93AB171F9EC4F8007AA916 /* KSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6EF048821FA6C10700309192 /* Common */,
+				6EF048831FA6C10700309192 /* Controller */,
+				6EF048841FA6C10700309192 /* View */,
+				6E93AB181F9EC4F8007AA916 /* AppDelegate.h */,
+				6E93AB191F9EC4F8007AA916 /* AppDelegate.m */,
+				6E93AB311F9ECF67007AA916 /* LaunchViewController.h */,
+				6E93AB321F9ECF67007AA916 /* LaunchViewController.m */,
+				6E93AB381F9EDB94007AA916 /* Launch Screen.storyboard */,
+				6E93AB211F9EC4F8007AA916 /* Assets.xcassets */,
+				6E93AB261F9EC4F8007AA916 /* Info.plist */,
+				6E93AB551F9F30AB007AA916 /* PrefixHeader.pch */,
+				6E93AB271F9EC4F8007AA916 /* main.m */,
+			);
+			path = KSearch;
+			sourceTree = "<group>";
+		};
+		6EF048821FA6C10700309192 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6E63373D1FA71F3A005FDF2C /* KNoDataView.h */,
+				6E63373E1FA71F3A005FDF2C /* KNoDataView.m */,
+				6E7D44451FA8600F0081D186 /* KSearchBar.h */,
+				6E7D44461FA8600F0081D186 /* KSearchBar.m */,
+				6E6337391FA71EE8005FDF2C /* KSearchItem.h */,
+				6E63373A1FA71EE9005FDF2C /* KSearchItem.m */,
+				6E6337321FA71E28005FDF2C /* NSMutableAttributedString+KP.h */,
+				6E6337311FA71E28005FDF2C /* NSMutableAttributedString+KP.m */,
+				6E6337331FA71E28005FDF2C /* NSString+KP.h */,
+				6E6337381FA71E28005FDF2C /* NSString+KP.m */,
+				6E6337341FA71E28005FDF2C /* UISearchBar+KP.h */,
+				6E6337371FA71E28005FDF2C /* UISearchBar+KP.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6EF048831FA6C10700309192 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EF048881FA6C1D000309192 /* KMessageViewController.h */,
+				6EF048891FA6C1D000309192 /* KMessageViewController.m */,
+				6EF048851FA6C1C100309192 /* KContactsViewController.h */,
+				6EF048861FA6C1C100309192 /* KContactsViewController.m */,
+				6EF0488B1FA6C1EB00309192 /* KDiscoverViewController.h */,
+				6EF0488C1FA6C1EB00309192 /* KDiscoverViewController.m */,
+				6EF0488E1FA6C1FD00309192 /* KMineViewController.h */,
+				6EF0488F1FA6C1FD00309192 /* KMineViewController.m */,
+				6EF0489D1FA6C59300309192 /* KTabBarController.h */,
+				6EF0489E1FA6C59300309192 /* KTabBarController.m */,
+				6EF048A61FA704F300309192 /* KNavigationController.h */,
+				6EF048A71FA704F300309192 /* KNavigationController.m */,
+				6E93AB401F9EEB25007AA916 /* KSearchResultViewController.h */,
+				6E93AB411F9EEB25007AA916 /* KSearchResultViewController.m */,
+				6E8811961FA019110078BEF2 /* KsearchViewController.h */,
+				6E8811951FA019110078BEF2 /* KsearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EF048841FA6C10700309192 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EF048911FA6C23300309192 /* KTableViewCell.h */,
+				6EF048921FA6C23300309192 /* KTableViewCell.m */,
+				6EF048941FA6C24400309192 /* KTableView.h */,
+				6EF048951FA6C24400309192 /* KTableView.m */,
+				6EF048971FA6C25300309192 /* KViewController.h */,
+				6EF048981FA6C25300309192 /* KViewController.m */,
+				6EF0489A1FA6C26E00309192 /* KTableViewController.h */,
+				6EF0489B1FA6C26E00309192 /* KTableViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712F11B293AE979B15F78A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B027763127A30ACF65546BE /* libPods-KSearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E93AB141F9EC4F8007AA916 /* KSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E93AB2B1F9EC4F8007AA916 /* Build configuration list for PBXNativeTarget "KSearch" */;
+			buildPhases = (
+				A2A43BA5AF551FE54119570C /* [CP] Check Pods Manifest.lock */,
+				6E93AB111F9EC4F8007AA916 /* Sources */,
+				6E93AB121F9EC4F8007AA916 /* Frameworks */,
+				6E93AB131F9EC4F8007AA916 /* Resources */,
+				A02F51F52C389A23191D23E5 /* [CP] Embed Pods Frameworks */,
+				185E8902AF4709EC57DDE906 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSearch;
+			productName = KSearch;
+			productReference = 6E93AB151F9EC4F8007AA916 /* KSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E93AB0D1F9EC4F8007AA916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "柯平";
+				TargetAttributes = {
+					6E93AB141F9EC4F8007AA916 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E93AB101F9EC4F8007AA916 /* Build configuration list for PBXProject "KSearch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E93AB0C1F9EC4F8007AA916;
+			productRefGroup = 6E93AB161F9EC4F8007AA916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E93AB141F9EC4F8007AA916 /* KSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E93AB131F9EC4F8007AA916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E93AB391F9EDB94007AA916 /* Launch Screen.storyboard in Resources */,
+				6E93AB221F9EC4F8007AA916 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185E8902AF4709EC57DDE906 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSearch/Pods-KSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02F51F52C389A23191D23E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSearch/Pods-KSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A43BA5AF551FE54119570C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E93AB111F9EC4F8007AA916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6337411FA71FCB005FDF2C /* NSMutableAttributedString+KP.m in Sources */,
+				6E6337421FA71FCB005FDF2C /* NSString+KP.m in Sources */,
+				6E6337431FA71FCB005FDF2C /* UISearchBar+KP.m in Sources */,
+				6E6337401FA71F88005FDF2C /* KSearchItem.m in Sources */,
+				6E63373F1FA71F72005FDF2C /* KNoDataView.m in Sources */,
+				6EF0489F1FA6C59300309192 /* KTabBarController.m in Sources */,
+				6EF0488D1FA6C1EB00309192 /* KDiscoverViewController.m in Sources */,
+				6EF048871FA6C1C100309192 /* KContactsViewController.m in Sources */,
+				6EF048991FA6C25300309192 /* KViewController.m in Sources */,
+				6EF048901FA6C1FD00309192 /* KMineViewController.m in Sources */,
+				6EF0488A1FA6C1D000309192 /* KMessageViewController.m in Sources */,
+				6E93AB441F9EEB25007AA916 /* KSearchResultViewController.m in Sources */,
+				6EF048931FA6C23300309192 /* KTableViewCell.m in Sources */,
+				6E93AB281F9EC4F8007AA916 /* main.m in Sources */,
+				6EF048961FA6C24400309192 /* KTableView.m in Sources */,
+				6E93AB331F9ECF67007AA916 /* LaunchViewController.m in Sources */,
+				6E7D44471FA8600F0081D186 /* KSearchBar.m in Sources */,
+				6E93AB1A1F9EC4F8007AA916 /* AppDelegate.m in Sources */,
+				6EF0489C1FA6C26E00309192 /* KTableViewController.m in Sources */,
+				6EF048A81FA704F300309192 /* KNavigationController.m in Sources */,
+				6E8811971FA019120078BEF2 /* KsearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E93AB291F9EC4F8007AA916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E93AB2A1F9EC4F8007AA916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E93AB2C1F9EC4F8007AA916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18894046C367B625854B69A6 /* Pods-KSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JRBJBV8FE;
+				GCC_PREFIX_HEADER = KSearch/PrefixHeader.pch;
+				INFOPLIST_FILE = KSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxh.KSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E93AB2D1F9EC4F8007AA916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A2E8CFD834CBD1426576C4 /* Pods-KSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JRBJBV8FE;
+				GCC_PREFIX_HEADER = KSearch/PrefixHeader.pch;
+				INFOPLIST_FILE = KSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxh.KSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E93AB101F9EC4F8007AA916 /* Build configuration list for PBXProject "KSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E93AB291F9EC4F8007AA916 /* Debug */,
+				6E93AB2A1F9EC4F8007AA916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E93AB2B1F9EC4F8007AA916 /* Build configuration list for PBXNativeTarget "KSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E93AB2C1F9EC4F8007AA916 /* Debug */,
+				6E93AB2D1F9EC4F8007AA916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E93AB0D1F9EC4F8007AA916 /* Project object */;
+}
